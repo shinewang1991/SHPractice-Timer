@@ -13,6 +13,7 @@
 		A3CB55EE2316698C009C3C68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3CB55ED2316698C009C3C68 /* Assets.xcassets */; };
 		A3CB55F12316698C009C3C68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3CB55EF2316698C009C3C68 /* LaunchScreen.storyboard */; };
 		A3CB55F42316698C009C3C68 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CB55F32316698C009C3C68 /* main.m */; };
+		A3CB55FC23167CE4009C3C68 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CB55FB23167CE4009C3C68 /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		A3CB55F02316698C009C3C68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A3CB55F22316698C009C3C68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A3CB55F32316698C009C3C68 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A3CB55FA23167CE4009C3C68 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		A3CB55FB23167CE4009C3C68 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,8 @@
 			children = (
 				A3CB55E42316698B009C3C68 /* AppDelegate.h */,
 				A3CB55E52316698B009C3C68 /* AppDelegate.m */,
+				A3CB55FA23167CE4009C3C68 /* MainViewController.h */,
+				A3CB55FB23167CE4009C3C68 /* MainViewController.m */,
 				A3CB55E72316698B009C3C68 /* ViewController.h */,
 				A3CB55E82316698B009C3C68 /* ViewController.m */,
 				A3CB55EA2316698B009C3C68 /* Main.storyboard */,
@@ -144,6 +149,7 @@
 				A3CB55E92316698B009C3C68 /* ViewController.m in Sources */,
 				A3CB55F42316698C009C3C68 /* main.m in Sources */,
 				A3CB55E62316698B009C3C68 /* AppDelegate.m in Sources */,
+				A3CB55FC23167CE4009C3C68 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +294,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YSE3H6NFMJ;
 				INFOPLIST_FILE = "SHPractice-Timer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +312,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YSE3H6NFMJ;
 				INFOPLIST_FILE = "SHPractice-Timer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
