@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		143B63DE2323531200E026A0 /* NSTimer+WeakTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 143B63DD2323531200E026A0 /* NSTimer+WeakTimer.m */; };
 		A3CB55E62316698B009C3C68 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CB55E52316698B009C3C68 /* AppDelegate.m */; };
 		A3CB55E92316698B009C3C68 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CB55E82316698B009C3C68 /* ViewController.m */; };
 		A3CB55EC2316698B009C3C68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3CB55EA2316698B009C3C68 /* Main.storyboard */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		143B63DC2323531200E026A0 /* NSTimer+WeakTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTimer+WeakTimer.h"; sourceTree = "<group>"; };
+		143B63DD2323531200E026A0 /* NSTimer+WeakTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+WeakTimer.m"; sourceTree = "<group>"; };
 		A3CB55E12316698B009C3C68 /* SHPractice-Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SHPractice-Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3CB55E42316698B009C3C68 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A3CB55E52316698B009C3C68 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -67,6 +70,8 @@
 				A3CB55FB23167CE4009C3C68 /* MainViewController.m */,
 				A3CB55E72316698B009C3C68 /* ViewController.h */,
 				A3CB55E82316698B009C3C68 /* ViewController.m */,
+				143B63DC2323531200E026A0 /* NSTimer+WeakTimer.h */,
+				143B63DD2323531200E026A0 /* NSTimer+WeakTimer.m */,
 				A3CB55EA2316698B009C3C68 /* Main.storyboard */,
 				A3CB55ED2316698C009C3C68 /* Assets.xcassets */,
 				A3CB55EF2316698C009C3C68 /* LaunchScreen.storyboard */,
@@ -149,6 +154,7 @@
 				A3CB55E92316698B009C3C68 /* ViewController.m in Sources */,
 				A3CB55F42316698C009C3C68 /* main.m in Sources */,
 				A3CB55E62316698B009C3C68 /* AppDelegate.m in Sources */,
+				143B63DE2323531200E026A0 /* NSTimer+WeakTimer.m in Sources */,
 				A3CB55FC23167CE4009C3C68 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
